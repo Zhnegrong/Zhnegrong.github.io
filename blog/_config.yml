@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 健忘患者的笔记本
-subtitle: 生活本来就是这样，努力去改变它
-description: 算法 前端 React Node Laravel Php Js
+title: 老来健忘
+subtitle: 生活就是这样，努力去改变自己
+description: Front-end Php Js Algo
 author: zhengrong lu
 language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://zhnegrong.github.io/blog
-root: /blog/
+url: http://zhnegrong.github.io
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -78,5 +78,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: zhnegrong.github.io
+  repo: git@gitHub.com:zhnegrong/zhnegrong.github.io.git
   branch: master
