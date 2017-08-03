@@ -1,7 +1,7 @@
 ---
 title: Hexo Note (1) - Markdown
 date: 2017-08-02 11:29:03
-tags: ["Hexo" "MD" "Web Log"]
+tags: ["Hexo", "MD", "Web Log"]
 categories: ["Hexo"]
 description:
 ---
