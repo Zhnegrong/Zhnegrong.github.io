@@ -34,7 +34,7 @@ Puisque nous sommes tous mortel et que je dois mourir un jour, j'aimerais mourir
 ```
 #### Donnate link
 #### Video
-{% youtube video_id=X4ZRVZ3mur8 %}
+{% youtube video_id="X4ZRVZ3mur8" %}
 #### Some useful locations
  `\themes\next\layout\_layout.swing`<br>
  `\themes\next\layout\_partials\header.swig`<br>
