@@ -6,12 +6,13 @@ categories: ["Hexo"]
 description:
 ---
 #### UesrFul links
-[Markdown Intro - CN](http://www.jianshu.com/p/q81RER) <br>
+
+[Markdown Intro - CN](http://www.jianshu.com/p/q81RER)
 [Hexo personal blog - CN](http://www.jianshu.com/p/c23902f93558)
 [Donnate link - CN](https://icehe.me/web/donate/)
 #### How to make refered words centered
 ``` html
-<blockquote class="blockquote-center">Refered words
+<blockquote class="blockquote-center">Refered words </blockquote>
 ```
 {% blockquote Lu, Foolish thoughts, https://www.google.com %}
 Puisque nous sommes tous mortel et que je dois mourir un jour, j'aimerais mourir le lendemain de ta mort.
@@ -41,6 +42,7 @@ Puisque nous sommes tous mortel et que je dois mourir un jour, j'aimerais mourir
 `themes\next\source\css\_custom\custom.styl`<br>
 
 
-
 最近访客
+``` html
 <div class="ds-recent-visitors" data-num-items="39" data-avatar-size="40" id="ds-recent-visitors"></div>
+```
