@@ -1799,7 +1799,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #09404d;
+  background: #e48163;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2925,4 +2925,12 @@ code {
 }
 #ds-thread #ds-reset .ds-powered-by {
   display: none;
+}
+.links-of-author a {
+  text-align: left;
+  width: 100px;
+  border-bottom: 0px;
+}
+.links-of-author a:before {
+  content: none;
 }
