@@ -1,15 +1,17 @@
 ---
 title: Hexo Note (1) - Markdown
 date: 2017-08-02 11:29:03
-tags: ["Hexo", "Mqrkdown", "Web"]
-categories: ["Hexo"]
+tags: ["Hexo", "Markdown", "Web"]
+categories: ["Web", "Hexo"]
 description:
+lang: en
 ---
 #### UesrFul links
 
 [Markdown Intro - CN](http://www.jianshu.com/p/q81RER)
 [Hexo personal blog - CN](http://www.jianshu.com/p/c23902f93558)
 [Donnate link - CN](https://icehe.me/web/donate/)
+[Hexo weblog](https://yq.aliyun.com/articles/8607)
 #### How to make refered words centered
 ``` html
 <blockquote class="blockquote-center">Refered words </blockquote>
@@ -34,15 +36,9 @@ Puisque nous sommes tous mortel et que je dois mourir un jour, j'aimerais mourir
 ```
 #### Donnate link
 #### Video
-{% youtube video_id="X4ZRVZ3mur8" %}
+{% youtube video_id=X4ZRVZ3mur8 %}
 #### Some useful locations
  `\themes\next\layout\_layout.swing`<br>
  `\themes\next\layout\_partials\header.swig`<br>
  `\themes\next\source\js\src`<br>
 `themes\next\source\css\_custom\custom.styl`<br>
-
-
-最近访客
-``` html
-<div class="ds-recent-visitors" data-num-items="39" data-avatar-size="40" id="ds-recent-visitors"></div>
-```
