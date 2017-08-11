@@ -1,7 +1,7 @@
 ---
 title: JS - DevNote - Target&CurrentTarger&This
 date: 2017-08-10 11:46:30
-tags: ["Js", "Front-end"]
+tags: ["Js", "Front-end", "DOM"]
 categories: ["Web","Front-end"]
 description:
 lang: zh-Hans
@@ -12,17 +12,17 @@ lang: zh-Hans
 首先得搞清楚JS的事件流的原理。
 
 <!-- more -->
-## JS 的事件流
+
 
 参考 [Js 事件原理分析](http://www.cnblogs.com/st-leslie/p/5907556.html)
 
-#### Bubbling vs Capturing
+#### Bubbling & Capturing
 
 冒泡流是IE提出的，旧版并不支持捕获流。
-总结下来，js事件从windows开始，到document->body->div...->element1->element0 <br>
-这个过程称为捕获Capturing
-随后对目标进行对应函数处理，这个过程是目标过程 <br>
-最后再从element0返回window的过程则是冒泡 Bubbling。
+总结下来，js事件从 * window * 开始，到 * document->body->div...->element1->element0 * <br>
+这就是事件捕获 Capturing <br>
+随后对事件目标进行处理是目标过程 <br>
+最后从element0返回window的过程则是事件冒泡 Bubbling。
 
 ``` javascript
       element0.onclick=function(){
@@ -33,7 +33,7 @@ lang: zh-Hans
       }
 
 ```
-所以依据冒泡次序，程序结果会先出现`element0_click` 再出现`element1_click `
+所以依据冒泡次序，程序结果会先输出`element0_click` 再输出`element1_click `
 #### DOM Level
 
 DOM level 是W3C对DOM标准化的结果，目前到DOM Level 4
@@ -90,10 +90,10 @@ js的拖拽往往会用到  *** preventDefault() *** 这个函数取消事件的
 ```
 而  *** stopPropagation() *** 则阻止了事件进一步获取或冒泡，同时阻止任何事件处理程序被调用
 
-
+#### Target & CurrentTarget
 
 <blockquote class="blockquote-center">
-target在事件流的目标阶段；currentTarget在事件流的捕获，目标及冒泡阶段。只有当事件流处在目标阶段的时候，两个的指向才是一样的， 而当处于捕获和冒泡阶段的时候，target指向被单击的对象而currentTarget指向当前事件活动的对象(注册该事件的对象)（一般为父级）。this指向永远和currentTarget指向一致（只考虑this的普通函数调用）。
+target在事件流的目标阶段；currentTarget在事件流的捕获，目标及冒泡阶段。只有当事件流处在目标阶段的时候，两个的指向才是一样的， 而当处于捕获和冒泡阶段的时候，target是目标过程中的DOM对象而currentTarget指向当前事件活动的对象(注册该事件的对象)（一般为父级）。this指向永远和currentTarget指向一致（只考虑this的普通函数调用）。
 </blockquote>
 
 
