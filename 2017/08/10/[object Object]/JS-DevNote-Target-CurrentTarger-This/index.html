@@ -83,7 +83,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo,Mqrkdown,Web," />
+  <meta name="keywords" content="Js,Front-end,DOM," />
 
 
 
@@ -99,18 +99,18 @@
 
 
 
-<meta name="description" content="UesrFul linksMarkdown Intro - CNHexo personal blog - CNDonnate link - CN How to make refered words centered1&amp;lt;blockquote class=&quot;blockquote-center&quot;&amp;gt;Refered words &amp;lt;/blockquote&amp;gt; Puisque nous s">
-<meta name="keywords" content="Hexo,Mqrkdown,Web">
+<meta name="description" content="在项目里为了实现button的拖拽时候，接触到了Target CurrentTarget，做了点小测试，终于是会用了，但总归耽误了不少时间，这里做点笔记，把各个关系理清楚。 首先得搞清楚JS的事件流的原理。">
+<meta name="keywords" content="Js,Front-end,DOM">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo Note (1) - Markdown">
-<meta property="og:url" content="http://zhnegrong.github.io/2017/[object Object]/Hexo-Note-1-Markdown/index.html">
+<meta property="og:title" content="JS - DevNote - Target&amp;CurrentTarger&amp;This">
+<meta property="og:url" content="http://zhnegrong.github.io/2017/08/10/[object Object]/JS-DevNote-Target-CurrentTarger-This/index.html">
 <meta property="og:site_name" content="银镴枪头">
-<meta property="og:description" content="UesrFul linksMarkdown Intro - CNHexo personal blog - CNDonnate link - CN How to make refered words centered1&amp;lt;blockquote class=&quot;blockquote-center&quot;&amp;gt;Refered words &amp;lt;/blockquote&amp;gt; Puisque nous s">
+<meta property="og:description" content="在项目里为了实现button的拖拽时候，接触到了Target CurrentTarget，做了点小测试，终于是会用了，但总归耽误了不少时间，这里做点笔记，把各个关系理清楚。 首先得搞清楚JS的事件流的原理。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-08-08T11:45:33.014Z">
+<meta property="og:updated_time" content="2017-08-11T15:47:46.844Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo Note (1) - Markdown">
-<meta name="twitter:description" content="UesrFul linksMarkdown Intro - CNHexo personal blog - CNDonnate link - CN How to make refered words centered1&amp;lt;blockquote class=&quot;blockquote-center&quot;&amp;gt;Refered words &amp;lt;/blockquote&amp;gt; Puisque nous s">
+<meta name="twitter:title" content="JS - DevNote - Target&amp;CurrentTarger&amp;This">
+<meta name="twitter:description" content="在项目里为了实现button的拖拽时候，接触到了Target CurrentTarget，做了点小测试，终于是会用了，但总归耽误了不少时间，这里做点笔记，把各个关系理清楚。 首先得搞清楚JS的事件流的原理。">
 
 
 
@@ -138,13 +138,13 @@
 
 
 
-  <link rel="canonical" href="http://zhnegrong.github.io/2017/[object Object]/Hexo-Note-1-Markdown/"/>
+  <link rel="canonical" href="http://zhnegrong.github.io/2017/08/10/[object Object]/JS-DevNote-Target-CurrentTarger-This/"/>
 
 
 
 
 
-  <title>Hexo Note (1) - Markdown | 银镴枪头</title>
+  <title>JS - DevNote - Target&CurrentTarger&This | 银镴枪头</title>
   
 
 
@@ -283,7 +283,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://zhnegrong.github.io/2017/[object Object]/Hexo-Note-1-Markdown/">
+    <link itemprop="mainEntityOfPage" href="http://zhnegrong.github.io/2017/08/10/[object Object]/JS-DevNote-Target-CurrentTarger-This/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="zhengrong lu">
@@ -300,7 +300,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hexo Note (1) - Markdown</h1>
+          <h1 class="post-title" itemprop="name headline">JS - DevNote - Target&CurrentTarger&This</h1>
         
 
         <div class="post-meta">
@@ -312,8 +312,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-02T11:29:03+02:00">
-                2017-08-02
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-10T11:46:30+02:00">
+                2017-08-10
               </time>
             
 
@@ -335,8 +335,19 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Hexo/" itemprop="url" rel="index">
-                    <span itemprop="name">Hexo</span>
+                  <a href="/categories/Web/" itemprop="url" rel="index">
+                    <span itemprop="name">Web</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Web/Front-end/" itemprop="url" rel="index">
+                    <span itemprop="name">Front-end</span>
                   </a>
                 </span>
 
@@ -374,18 +385,31 @@
       
 
       
-        <h4 id="UesrFul-links"><a href="#UesrFul-links" class="headerlink" title="UesrFul links"></a>UesrFul links</h4><p><a href="http://www.jianshu.com/p/q81RER" target="_blank" rel="external">Markdown Intro - CN</a><br><a href="http://www.jianshu.com/p/c23902f93558" target="_blank" rel="external">Hexo personal blog - CN</a><br><a href="https://icehe.me/web/donate/" target="_blank" rel="external">Donnate link - CN</a></p>
-<h4 id="How-to-make-refered-words-centered"><a href="#How-to-make-refered-words-centered" class="headerlink" title="How to make refered words centered"></a>How to make refered words centered</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">blockquote</span> <span class="attr">class</span>=<span class="string">"blockquote-center"</span>&gt;</span>Refered words <span class="tag">&lt;/<span class="name">blockquote</span>&gt;</span></div></pre></td></tr></table></figure>
-<blockquote><p>Puisque nous sommes tous mortel et que je dois mourir un jour, j’aimerais mourir le lendemain de ta mort.</p>
-<footer><strong>Lu, Foolish thoughts,</strong><cite><a href="https://www.google.com" target="_blank" rel="external">www.google.com</a></cite></footer></blockquote>
-<h4 id="How-to-count-visitors"><a href="#How-to-count-visitors" class="headerlink" title="How to count visitors"></a>How to count visitors</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"ds-recent-visitors"</span> <span class="attr">data-num-items</span>=<span class="string">"39"</span> <span class="attr">data-avatar-size</span>=<span class="string">"40"</span> <span class="attr">id</span>=<span class="string">"ds-recent-visitors"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure>
+        <p>在项目里为了实现button的拖拽时候，接触到了Target CurrentTarget，做了点小测试，终于是会用了，但总归耽误了不少时间，这里做点笔记，把各个关系理清楚。</p>
+<p>首先得搞清楚JS的事件流的原理。</p>
 <a id="more"></a>
-<h4 id="Configure-where-“read-more…”-starts"><a href="#Configure-where-“read-more…”-starts" class="headerlink" title="Configure where “read more…” starts"></a>Configure where “read more…” starts</h4><p><code>&lt;!-- more --&gt;</code></p>
-<h4 id="Mouse-click-heart-action"><a href="#Mouse-click-heart-action" class="headerlink" title="Mouse click heart action"></a>Mouse click heart action</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"/js/src/love.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
-<h4 id="Background"><a href="#Background" class="headerlink" title="Background"></a>Background</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"/js/src/particle.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
-<h4 id="Donnate-link"><a href="#Donnate-link" class="headerlink" title="Donnate link"></a>Donnate link</h4><h4 id="Video"><a href="#Video" class="headerlink" title="Video"></a>Video</h4><div class="video-container"><iframe src="//www.youtube.com/embed/video_id=X4ZRVZ3mur8" frameborder="0" allowfullscreen></iframe></div>
-<h4 id="Some-useful-locations"><a href="#Some-useful-locations" class="headerlink" title="Some useful locations"></a>Some useful locations</h4><p> <code>\themes\next\layout\_layout.swing</code><br><br> <code>\themes\next\layout\_partials\header.swig</code><br><br> <code>\themes\next\source\js\src</code><br><br><code>themes\next\source\css\_custom\custom.styl</code><br></p>
-<p>最近访客<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"ds-recent-visitors"</span> <span class="attr">data-num-items</span>=<span class="string">"39"</span> <span class="attr">data-avatar-size</span>=<span class="string">"40"</span> <span class="attr">id</span>=<span class="string">"ds-recent-visitors"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<p>参考 <a href="http://www.cnblogs.com/st-leslie/p/5907556.html" target="_blank" rel="external">Js 事件原理分析</a></p>
+<h4 id="Bubbling-amp-Capturing"><a href="#Bubbling-amp-Capturing" class="headerlink" title="Bubbling &amp; Capturing"></a>Bubbling &amp; Capturing</h4><p>冒泡流是IE提出的，旧版并不支持捕获流。<br>总结下来，js事件从 <em> window </em> 开始，到 <em> document-&gt;body-&gt;div…-&gt;element1-&gt;element0 </em> <br><br>这就是事件捕获 Capturing <br><br>随后对事件目标进行处理是目标过程 <br><br>最后从element0返回window的过程则是事件冒泡 Bubbling。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">element0.onclick=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">  alert(<span class="string">"element0_click"</span>);</div><div class="line">&#125;</div><div class="line">element1.onclick=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">  alert(<span class="string">"element1_click"</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>所以依据冒泡次序，程序结果会先输出<code>element0_click</code> 再输出<code>element1_click</code></p>
+<h4 id="DOM-Level"><a href="#DOM-Level" class="headerlink" title="DOM Level"></a>DOM Level</h4><p>DOM level 是W3C对DOM标准化的结果，目前到DOM Level 4<br>level0 和 level2 区别主要在于 level2支持了多事件binding<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line">      element0.onclick=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        alert(<span class="string">"element0_click"</span>);</div><div class="line">      &#125;</div><div class="line">      element0.onclick=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        alert(<span class="string">"element0_click2"</span>);</div><div class="line">      &#125;</div><div class="line">      element1.onclick=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        alert(<span class="string">"element1_click"</span>);</div><div class="line">      &#125;</div><div class="line"><span class="string">``</span><span class="string">`  </span></div><div class="line"><span class="string">level0会忽略前面的binding，只显示`</span>element0_click2<span class="string">`最后`</span>element1_click<span class="string">`</span></div><div class="line"><span class="string"></span></div><div class="line"><span class="string">`</span><span class="string">``</span> javascript</div><div class="line">      element0.addEventListener(<span class="string">"click"</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        alert(<span class="string">"element0_click"</span>);</div><div class="line">    &#125;,<span class="literal">false</span>);</div><div class="line">      element0.addEventListener(<span class="string">"click"</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        alert(<span class="string">"element0_click2"</span>);</div><div class="line">    &#125;,<span class="literal">false</span>);</div><div class="line">      element1.addEventListener(<span class="string">"click"</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        alert(<span class="string">"element1_click"</span>);</div><div class="line">    &#125;,<span class="literal">false</span>);</div></pre></td></tr></table></figure></p>
+<p>值得一提的是，<code>addEventListener</code>方法在IE中并不被支持，level2的对应实现是<code>attachEvent</code><br>相对应的事件名则是<code>onclick</code></p>
+<h4 id="stopPropagation-amp-preventDefault"><a href="#stopPropagation-amp-preventDefault" class="headerlink" title=" stopPropagation()  &amp;  preventDefault() "></a><strong><em> stopPropagation() </em></strong> &amp; <strong><em> preventDefault() </em></strong></h4><p>js的拖拽往往会用到  <strong><em> preventDefault() </em></strong> 这个函数取消事件的默认行为</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"> <span class="function"><span class="keyword">function</span> <span class="title">dragStartHandler</span>(<span class="params">e</span>) </span>&#123;</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">'dragStartHandler'</span>);</div><div class="line">    e.dataTransfer.setData(<span class="string">'data'</span>, e.target.id);</div><div class="line">&#125;</div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">dragendHandler</span>(<span class="params">e</span>) </span>&#123;</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">'dragendHandler'</span>);</div><div class="line">&#125;</div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">dragoverHandler</span>(<span class="params">e</span>) </span>&#123;</div><div class="line">    e.preventDefault();</div><div class="line">&#125;</div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">dropHandler</span>(<span class="params">e</span>) </span>&#123;</div><div class="line">    e.preventDefault();</div><div class="line">    <span class="keyword">var</span> draggedID = e.dataTransfer.getData(<span class="string">'data'</span>);</div><div class="line">    <span class="keyword">var</span> currentID = e.target.id;</div><div class="line">    <span class="keyword">var</span> draggedEle = <span class="built_in">document</span>.getElementById(draggedID);</div><div class="line">    <span class="keyword">var</span> currentEle = <span class="built_in">document</span>.getElementById(currentID);</div><div class="line">   <span class="comment">//...</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>而  <strong><em> stopPropagation() </em></strong> 则阻止了事件进一步获取或冒泡，同时阻止任何事件处理程序被调用</p>
+<h4 id="Target-amp-CurrentTarget"><a href="#Target-amp-CurrentTarget" class="headerlink" title="Target &amp; CurrentTarget"></a>Target &amp; CurrentTarget</h4><blockquote class="blockquote-center"><br>target在事件流的目标阶段；currentTarget在事件流的捕获，目标及冒泡阶段。只有当事件流处在目标阶段的时候，两个的指向才是一样的， 而当处于捕获和冒泡阶段的时候，target是目标过程中的DOM对象而currentTarget指向当前事件活动的对象(注册该事件的对象)（一般为父级）。this指向永远和currentTarget指向一致（只考虑this的普通函数调用）。<br></blockquote>
+
+
+
+
+
+
+
+
+
+
+
+<p>END</p>
 
       
     </div>
@@ -435,7 +459,7 @@
     </li>
     <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="http://zhnegrong.github.io/2017/[object Object]/Hexo-Note-1-Markdown/" title="Hexo Note (1) - Markdown">http://zhnegrong.github.io/2017/[object Object]/Hexo-Note-1-Markdown/</a>
+      <a href="http://zhnegrong.github.io/2017/08/10/[object Object]/JS-DevNote-Target-CurrentTarger-This/" title="JS - DevNote - Target&CurrentTarger&This">http://zhnegrong.github.io/2017/08/10/[object Object]/JS-DevNote-Target-CurrentTarger-This/</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明： </strong>
@@ -451,11 +475,11 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+            <a href="/tags/Js/" rel="tag"># Js</a>
           
-            <a href="/tags/Mqrkdown/" rel="tag"># Mqrkdown</a>
+            <a href="/tags/Front-end/" rel="tag"># Front-end</a>
           
-            <a href="/tags/Web/" rel="tag"># Web</a>
+            <a href="/tags/DOM/" rel="tag"># DOM</a>
           
         </div>
       
@@ -468,8 +492,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/[object Object]/第一篇-起源/" rel="next" title="第一篇 起源">
-                <i class="fa fa-chevron-left"></i> 第一篇 起源
+              <a href="/2017/08/10/[object Object]/Hexo-Note-2-Advance/" rel="next" title="Hexo Note (2) - Advance">
+                <i class="fa fa-chevron-left"></i> Hexo Note (2) - Advance
               </a>
             
           </div>
@@ -477,6 +501,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/08/11/[object Object]/Algo-1-Intro/" rel="prev" title="Algo (1) Tree">
+                Algo (1) Tree <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -549,7 +577,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">6</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -560,7 +588,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">6</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -571,7 +599,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">11</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -659,7 +687,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#UesrFul-links"><span class="nav-number">1.</span> <span class="nav-text">UesrFul links</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#How-to-make-refered-words-centered"><span class="nav-number">2.</span> <span class="nav-text">How to make refered words centered</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#How-to-count-visitors"><span class="nav-number">3.</span> <span class="nav-text">How to count visitors</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Configure-where-“read-more…”-starts"><span class="nav-number">4.</span> <span class="nav-text">Configure where “read more…” starts</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Mouse-click-heart-action"><span class="nav-number">5.</span> <span class="nav-text">Mouse click heart action</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Background"><span class="nav-number">6.</span> <span class="nav-text">Background</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Donnate-link"><span class="nav-number">7.</span> <span class="nav-text">Donnate link</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Video"><span class="nav-number">8.</span> <span class="nav-text">Video</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Some-useful-locations"><span class="nav-number">9.</span> <span class="nav-text">Some useful locations</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Bubbling-amp-Capturing"><span class="nav-number">1.</span> <span class="nav-text">Bubbling & Capturing</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#DOM-Level"><span class="nav-number">2.</span> <span class="nav-text">DOM Level</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#stopPropagation-amp-preventDefault"><span class="nav-number">3.</span> <span class="nav-text"> stopPropagation()  &  preventDefault() </span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Target-amp-CurrentTarget"><span class="nav-number">4.</span> <span class="nav-text">Target & CurrentTarget</span></a></li></ol></div>
             
 
           </div>
