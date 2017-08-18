@@ -4,7 +4,7 @@ date: 2017-08-02 11:29:03
 tags: ["Hexo", "Markdown", "Web"]
 categories: ["Web", "Hexo"]
 description:
-lang: en
+lang: zh-Hans
 ---
 #### UesrFul links
 
@@ -28,7 +28,7 @@ Puisque nous sommes tous mortel et que je dois mourir un jour, j'aimerais mourir
 ` <!-- more --> `
 #### Mouse click heart action
 ``` html
-<script type="text/javascript" src="/js/src/love.js"></script>
+<script type="text/javascript" src="/js/src/love.jws"></script>
 ```
 #### Background
 ``` html

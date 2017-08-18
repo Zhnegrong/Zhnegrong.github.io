@@ -4,7 +4,7 @@ date: 2017-08-11 16:08:30
 tags: ["Algo", "Project"]
 categories: ["Algo"]
 description:
-lang: cn
+lang: zh-Hans
 ---
 
 ### 二叉树
@@ -17,4 +17,4 @@ lang: cn
 
 关于多叉树[segmentfault-多叉树](https://segmentfault.com/a/1190000003004435)
 
-### 
+<!-- more -->
