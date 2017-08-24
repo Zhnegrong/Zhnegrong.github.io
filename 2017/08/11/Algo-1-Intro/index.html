@@ -106,8 +106,8 @@
 <meta property="og:url" content="http://zhnegrong.github.io/2017/08/11/Algo-1-Intro/index.html">
 <meta property="og:site_name" content="银镴枪头">
 <meta property="og:description" content="二叉树项目里遇到一问题，大概就是用html画一个sap各个系统的组织结构图，本质上其实就是遍历一个多叉树。然而因为要用html画出来，一个隐性的条件就是得遍历完子节点再遍历父节点。所以这里总结一下多叉树遍历的几个方法。然后结合自己项目理理清楚。 首先关于二叉树遍历Binary Tree 关于多叉树segmentfault-多叉树">
-<meta property="og:locale" content="cn">
-<meta property="og:updated_time" content="2017-08-24T09:28:25.068Z">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-08-24T10:43:03.763Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Algo (1) Tree">
 <meta name="twitter:description" content="二叉树项目里遇到一问题，大概就是用html画一个sap各个系统的组织结构图，本质上其实就是遍历一个多叉树。然而因为要用html画出来，一个隐性的条件就是得遍历完子节点再遍历父节点。所以这里总结一下多叉树遍历的几个方法。然后结合自己项目理理清楚。 首先关于二叉树遍历Binary Tree 关于多叉树segmentfault-多叉树">
@@ -124,7 +124,7 @@
     motion: true,
     duoshuo: {
       userId: '0',
-      author: 'Author'
+      author: '博主'
     },
     algolia: {
       applicationID: '',
@@ -172,7 +172,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="cn">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
   
@@ -220,7 +220,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Startseite
+            首页
           </a>
         </li>
       
@@ -230,7 +230,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            Kategorien
+            分类
           </a>
         </li>
       
@@ -240,7 +240,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
-            Über
+            关于
           </a>
         </li>
       
@@ -250,7 +250,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archiv
+            归档
           </a>
         </li>
       
@@ -310,9 +310,9 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-08-11T16:08:30+02:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-11T16:08:30+02:00">
                 2017-08-11
               </time>
             
@@ -331,7 +331,7 @@
                 <i class="fa fa-folder-o"></i>
               </span>
               
-                <span class="post-meta-item-text">in</span>
+                <span class="post-meta-item-text">分类于</span>
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
@@ -422,16 +422,16 @@
         
   <ul class="post-copyright">
     <li class="post-copyright-author">
-      <strong>Post author:</strong>
+      <strong>本文作者：</strong>
       zhengrong lu
     </li>
     <li class="post-copyright-link">
-      <strong>Post link:</strong>
+      <strong>本文链接：</strong>
       <a href="http://zhnegrong.github.io/2017/08/11/Algo-1-Intro/" title="Algo (1) Tree">http://zhnegrong.github.io/2017/08/11/Algo-1-Intro/</a>
     </li>
     <li class="post-copyright-license">
-      <strong>Copyright Notice: </strong>
-      All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> unless stating additionally.
+      <strong>版权声明： </strong>
+      本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
     </li>
   </ul>
 
@@ -520,10 +520,10 @@
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            Inhaltsverzeichnis
+            目录
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
-            Übersicht
+            概览
           </li>
         </ul>
       
@@ -544,7 +544,7 @@
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
                 <span class="site-state-item-count">8</span>
-                <span class="site-state-item-name">Artikel</span>
+                <span class="site-state-item-name">日志</span>
               </a>
             </div>
           
@@ -555,7 +555,7 @@
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
                 <span class="site-state-item-count">7</span>
-                <span class="site-state-item-name">Kategorien</span>
+                <span class="site-state-item-name">分类</span>
               </a>
             </div>
           
@@ -566,7 +566,7 @@
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
                 <span class="site-state-item-count">13</span>
-                <span class="site-state-item-name">Tags</span>
+                <span class="site-state-item-name">标签</span>
               </a>
             </div>
           
@@ -685,11 +685,11 @@
 
 
 <div class="powered-by">
-  Erstellt mit  <a class="theme-link" href="https://hexo.io">Hexo</a>
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
 </div>
 
 <div class="theme-info">
-  Theme -
+  主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
     NexT.Mist
   </a>
