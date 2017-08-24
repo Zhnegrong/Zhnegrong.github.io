@@ -83,7 +83,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Algo,Project," />
+  <meta name="keywords" content="Js,Front-end,jQuery," />
 
 
 
@@ -99,18 +99,18 @@
 
 
 
-<meta name="description" content="二叉树项目里遇到一问题，大概就是用html画一个sap各个系统的组织结构图，本质上其实就是遍历一个多叉树。然而因为要用html画出来，一个隐性的条件就是得遍历完子节点再遍历父节点。所以这里总结一下多叉树遍历的几个方法。然后结合自己项目理理清楚。 首先关于二叉树遍历Binary Tree 关于多叉树segmentfault-多叉树">
-<meta name="keywords" content="Algo,Project">
+<meta name="description" content="对网上各种逼格很高的网站倾慕不已，也想试试看以后有空在Git搭个日志网站，这篇blog主要介绍一下几个js插件">
+<meta name="keywords" content="Js,Front-end,jQuery">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Algo (1) Tree">
-<meta property="og:url" content="http://zhnegrong.github.io/2017/08/11/[object Object]/Algo-1-Intro/index.html">
+<meta property="og:title" content="JS DevNote Animation 动画效果">
+<meta property="og:url" content="http://zhnegrong.github.io/2017/08/18/JS-DevNote-Animation-动画效果/index.html">
 <meta property="og:site_name" content="银镴枪头">
-<meta property="og:description" content="二叉树项目里遇到一问题，大概就是用html画一个sap各个系统的组织结构图，本质上其实就是遍历一个多叉树。然而因为要用html画出来，一个隐性的条件就是得遍历完子节点再遍历父节点。所以这里总结一下多叉树遍历的几个方法。然后结合自己项目理理清楚。 首先关于二叉树遍历Binary Tree 关于多叉树segmentfault-多叉树">
+<meta property="og:description" content="对网上各种逼格很高的网站倾慕不已，也想试试看以后有空在Git搭个日志网站，这篇blog主要介绍一下几个js插件">
 <meta property="og:locale" content="cn">
-<meta property="og:updated_time" content="2017-08-24T09:28:25.068Z">
+<meta property="og:updated_time" content="2017-08-24T09:28:55.628Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Algo (1) Tree">
-<meta name="twitter:description" content="二叉树项目里遇到一问题，大概就是用html画一个sap各个系统的组织结构图，本质上其实就是遍历一个多叉树。然而因为要用html画出来，一个隐性的条件就是得遍历完子节点再遍历父节点。所以这里总结一下多叉树遍历的几个方法。然后结合自己项目理理清楚。 首先关于二叉树遍历Binary Tree 关于多叉树segmentfault-多叉树">
+<meta name="twitter:title" content="JS DevNote Animation 动画效果">
+<meta name="twitter:description" content="对网上各种逼格很高的网站倾慕不已，也想试试看以后有空在Git搭个日志网站，这篇blog主要介绍一下几个js插件">
 
 
 
@@ -138,13 +138,13 @@
 
 
 
-  <link rel="canonical" href="http://zhnegrong.github.io/2017/08/11/[object Object]/Algo-1-Intro/"/>
+  <link rel="canonical" href="http://zhnegrong.github.io/2017/08/18/JS-DevNote-Animation-动画效果/"/>
 
 
 
 
 
-  <title>Algo (1) Tree | 银镴枪头</title>
+  <title>JS DevNote Animation 动画效果 | 银镴枪头</title>
   
 
 
@@ -283,7 +283,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://zhnegrong.github.io/2017/08/11/[object Object]/Algo-1-Intro/">
+    <link itemprop="mainEntityOfPage" href="http://zhnegrong.github.io/2017/08/18/JS-DevNote-Animation-动画效果/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="zhengrong lu">
@@ -300,7 +300,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Algo (1) Tree</h1>
+          <h1 class="post-title" itemprop="name headline">JS DevNote Animation 动画效果</h1>
         
 
         <div class="post-meta">
@@ -312,8 +312,8 @@
               
                 <span class="post-meta-item-text">Veröffentlicht am</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-08-11T16:08:30+02:00">
-                2017-08-11
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-08-18T17:09:22+02:00">
+                2017-08-18
               </time>
             
 
@@ -335,8 +335,19 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Algo/" itemprop="url" rel="index">
-                    <span itemprop="name">Algo</span>
+                  <a href="/categories/Web/" itemprop="url" rel="index">
+                    <span itemprop="name">Web</span>
+                  </a>
+                </span>
+
+                
+                
+                  . 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Web/Front-end/" itemprop="url" rel="index">
+                    <span itemprop="name">Front-end</span>
                   </a>
                 </span>
 
@@ -374,11 +385,9 @@
       
 
       
-        <h3 id="二叉树"><a href="#二叉树" class="headerlink" title="二叉树"></a>二叉树</h3><p>项目里遇到一问题，大概就是用html画一个sap各个系统的组织结构图，本质上其实就是遍历一个多叉树。<br>然而因为要用html画出来，一个隐性的条件就是得遍历完子节点再遍历父节点。<br>所以这里总结一下多叉树遍历的几个方法。然后结合自己项目理理清楚。</p>
-<p>首先关于二叉树遍历<br><a href="http://blog.csdn.net/luckyxiaoqiang/article/details/7518888" target="_blank" rel="external">Binary Tree</a></p>
-<p>关于多叉树<a href="https://segmentfault.com/a/1190000003004435" target="_blank" rel="external">segmentfault-多叉树</a></p>
+        <p>对网上各种逼格很高的网站倾慕不已，也想试试看以后有空在Git搭个日志网站，<br>这篇blog主要介绍一下几个js插件</p>
 <a id="more"></a>
-
+<h4 id="fullpage-js"><a href="#fullpage-js" class="headerlink" title="fullpage.js"></a>fullpage.js</h4><h4 id="Easing-js"><a href="#Easing-js" class="headerlink" title="Easing.js"></a>Easing.js</h4><h4 id="Chart-js"><a href="#Chart-js" class="headerlink" title="Chart.js"></a>Chart.js</h4>
       
     </div>
 
@@ -427,7 +436,7 @@
     </li>
     <li class="post-copyright-link">
       <strong>Post link:</strong>
-      <a href="http://zhnegrong.github.io/2017/08/11/[object Object]/Algo-1-Intro/" title="Algo (1) Tree">http://zhnegrong.github.io/2017/08/11/[object Object]/Algo-1-Intro/</a>
+      <a href="http://zhnegrong.github.io/2017/08/18/JS-DevNote-Animation-动画效果/" title="JS DevNote Animation 动画效果">http://zhnegrong.github.io/2017/08/18/JS-DevNote-Animation-动画效果/</a>
     </li>
     <li class="post-copyright-license">
       <strong>Copyright Notice: </strong>
@@ -443,9 +452,11 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Algo/" rel="tag"># Algo</a>
+            <a href="/tags/Js/" rel="tag"># Js</a>
           
-            <a href="/tags/Project/" rel="tag"># Project</a>
+            <a href="/tags/Front-end/" rel="tag"># Front-end</a>
+          
+            <a href="/tags/jQuery/" rel="tag"># jQuery</a>
           
         </div>
       
@@ -458,8 +469,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/08/10/[object Object]/JS-DevNote-Target-CurrentTarger-This/" rel="next" title="JS - DevNote - Target&CurrentTarger&This">
-                <i class="fa fa-chevron-left"></i> JS - DevNote - Target&CurrentTarger&This
+              <a href="/2017/08/17/C-C-Note/" rel="next" title="C/C++ Note">
+                <i class="fa fa-chevron-left"></i> C/C++ Note
               </a>
             
           </div>
@@ -468,8 +479,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/08/17/[object Object]/C-C-Note/" rel="prev" title="C/C++ Note">
-                C/C++ Note <i class="fa fa-chevron-right"></i>
+              <a href="/2017/08/24/Exams-Alibaba-web-front-end/" rel="prev" title="阿里巴巴笔试">
+                阿里巴巴笔试 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -653,7 +664,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#二叉树"><span class="nav-number">1.</span> <span class="nav-text">二叉树</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#fullpage-js"><span class="nav-number">1.</span> <span class="nav-text">fullpage.js</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Easing-js"><span class="nav-number">2.</span> <span class="nav-text">Easing.js</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Chart-js"><span class="nav-number">3.</span> <span class="nav-text">Chart.js</span></a></li></ol></div>
             
 
           </div>

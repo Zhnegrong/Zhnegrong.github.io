@@ -283,7 +283,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://zhnegrong.github.io/2017/08/24/[object Object]/Exams-Alibaba-web-front-end/">
+    <link itemprop="mainEntityOfPage" href="http://zhnegrong.github.io/2017/08/24/Exams-Alibaba-web-front-end/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="zhengrong lu">
@@ -302,7 +302,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/08/24/[object Object]/Exams-Alibaba-web-front-end/" itemprop="url">阿里巴巴笔试</a></h1>
+                <a class="post-title-link" href="/2017/08/24/Exams-Alibaba-web-front-end/" itemprop="url">阿里巴巴笔试</a></h1>
         
 
         <div class="post-meta">
@@ -373,19 +373,12 @@
       
         
           <p>昨天参加了阿里第一轮的笔试，有几个重点内容记录一下，以后多留意。另外末尾有java相关知识点</p>
-<h3 id="1-TCP-HTTP2-HTML5-相关"><a href="#1-TCP-HTTP2-HTML5-相关" class="headerlink" title="1.TCP HTTP2 HTML5..相关"></a>1.TCP HTTP2 HTML5..相关</h3><h4 id="关于HTTP2"><a href="#关于HTTP2" class="headerlink" title="关于HTTP2"></a>关于HTTP2</h4><p>大概就是选择题挑出错的表述，<br>HTTP2是二进制协议，头部更小，<br>HTTP/1.0只允许一个请求显眼每次一个给定的连接上。HTTP/2.0提供了在单个连接上复用HTTP请求和响应的能力。 多个请求或响应可以同时在一个连接上使用流。因此，对请求划分优先级肯定也得支持咯。<br>还有sever push的特性，这个我连题目都没看懂。。。</p>
-<p>HTTP post get update delete四种请求方法。是不是一点都不违和？！！！<br>写网站写傻了就是你了，GET POST PUT DELETE还有HEAD OPTION</p>
-<h4 id="关于TCP"><a href="#关于TCP" class="headerlink" title="关于TCP"></a>关于TCP</h4><p>里面大概有TCP可以确保数据的有序<br>各个链接吧<br><a href="http://www.jianshu.com/p/ef892323e68f" target="_blank" rel="external">TCP</a></p>
-<h3 id="2-ECMAScript6的新特性"><a href="#2-ECMAScript6的新特性" class="headerlink" title="2.ECMAScript6的新特性"></a>2.ECMAScript6的新特性</h3><p>这个，老实说，ES6我基本没用过，ES5很多特性我都以为是JS的，233333。<br>事后上网查了一下，总结一下吧。</p>
-<h4 id="ES5主要内容"><a href="#ES5主要内容" class="headerlink" title="ES5主要内容"></a>ES5主要内容</h4><p>strict模式，<br>Array增加方法forEach，isArray、map、reduce..<br>object增加方法 Object.create Object.getOwnPropertyNames，Object.preventExtensions..</p>
-<h4 id="ES6主要内容"><a href="#ES6主要内容" class="headerlink" title="ES6主要内容"></a>ES6主要内容</h4><p>块级作用域 <em> let, const </em> —–这个可重要了<br>关于作用域貌似出现在不只一道题，倒数第二道题代码里面也有关于作用域的。可惜忘了当时截图。<br>大概就是var作用有点坑人 <a href="http://www.infoq.com/cn/articles/es6-in-depth-let-and-const/" target="_blank" rel="external">INFOQ ES6 教程 </a><br>js最早只有全局作用域，函数作用域两个概念，然后try catch出现又多了异常变量的，eval出现又多了个，<br>es6加的更多了，块作用域，for循环作用域，新的全局let作用域，模块作用域，以及求参数的默认值时使用的附加作用域。<br>还有一个代理命名空间的描述，老实说，看过很多次，但根本没管过。<br>哦，对了，有个送分选项，ES6需要Babel之类转译，浏览器不支持，当时看到感动啊。ES6我当时就这个选项能确定</p>
-<h3 id="3-主流框架如-React的相关知识，譬如-JSX-Redux"><a href="#3-主流框架如-React的相关知识，譬如-JSX-Redux" class="headerlink" title="3.主流框架如 React的相关知识，譬如 JSX Redux"></a>3.主流框架如 React的相关知识，譬如 JSX Redux</h3><p>还有最后一个大题，就是让你完整描述一个前端框架的架构，优劣，和场景。这个我也不了解，感觉不该用vue的，诶，贼气，大家如果多上知乎之类的看布道师吹逼都可以写出来吧</p>
-<h3 id="4-BFC-前端渲染流程等相关知识"><a href="#4-BFC-前端渲染流程等相关知识" class="headerlink" title="4.BFC 前端渲染流程等相关知识"></a>4.BFC 前端渲染流程等相关知识</h3><p>呃，这个我在draft中，小伙伴可以自行搜索。</p>
-<h3 id="5-关于，跨域，Prototype，Cookie，缓存，ajax中断，DOM，redis的小知识点"><a href="#5-关于，跨域，Prototype，Cookie，缓存，ajax中断，DOM，redis的小知识点" class="headerlink" title="5.关于，跨域，Prototype，Cookie，缓存，ajax中断，DOM，redis的小知识点"></a>5.关于，跨域，Prototype，Cookie，缓存，ajax中断，DOM，redis的小知识点</h3><p>譬如ajax abort方法，prototype 的 apply和js object ，js默认返回值是undefined<br>最后一个我当时真的就是猜的，估计不太可能是null</p>
-<h3 id="6-另外分享下朋友给的笔试JAVA岗位的内容范围"><a href="#6-另外分享下朋友给的笔试JAVA岗位的内容范围" class="headerlink" title="6.另外分享下朋友给的笔试JAVA岗位的内容范围"></a>6.另外分享下朋友给的笔试JAVA岗位的内容范围</h3>
+<h3 id="1-TCP-HTTP2-HTML5-相关"><a href="#1-TCP-HTTP2-HTML5-相关" class="headerlink" title="1.TCP HTTP2 HTML5..相关"></a>1.TCP HTTP2 HTML5..相关</h3><h4 id="关于HTTP2"><a href="#关于HTTP2" class="headerlink" title="关于HTTP2"></a>关于HTTP2</h4><p>选择题 挑出错的表述，<br>HTTP2是二进制协议，头部更小，<br>HTTP/1.0只允许一个请求显眼每次一个给定的连接上。HTTP/2.0提供了在单个连接上复用HTTP请求和响应的能力。 多个请求或响应可以同时在一个连接上使用流。因此，对请求划分优先级肯定也得支持咯。<br>还有sever push的特性，这个我连题目都没看懂。。。</p>
+<p>HTTP post get update delete四种请求方法。是不是一点都不违和？！！！<br>写网站写傻了就是你了，GET POST PUT DELETE还有HEAD OPTION<br>上链接<a href="http://www.cnblogs.com/ghj1976/p/4552583.html" target="_blank" rel="external">HTTP2</a></p>
+<h4 id="关于TCP"><a href="#关于TCP" class="headerlink" title="关于TCP"></a>关于TCP</h4><p>里面大概有TCP可以确保数据的有序<br>上链接<a href="http://www.jianshu.com/p/ef892323e68f" target="_blank" rel="external">TCP</a><br>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2017/08/24/[object Object]/Exams-Alibaba-web-front-end/#more" rel="contents">
+            <a class="btn" href="/2017/08/24/Exams-Alibaba-web-front-end/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -431,7 +424,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://zhnegrong.github.io/2017/08/18/[object Object]/JS-DevNote-Animation-动画效果/">
+    <link itemprop="mainEntityOfPage" href="http://zhnegrong.github.io/2017/08/18/JS-DevNote-Animation-动画效果/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="zhengrong lu">
@@ -450,7 +443,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/08/18/[object Object]/JS-DevNote-Animation-动画效果/" itemprop="url">JS DevNote Animation 动画效果</a></h1>
+                <a class="post-title-link" href="/2017/08/18/JS-DevNote-Animation-动画效果/" itemprop="url">JS DevNote Animation 动画效果</a></h1>
         
 
         <div class="post-meta">
@@ -534,7 +527,7 @@
           <p>对网上各种逼格很高的网站倾慕不已，也想试试看以后有空在Git搭个日志网站，<br>这篇blog主要介绍一下几个js插件</p>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2017/08/18/[object Object]/JS-DevNote-Animation-动画效果/#more" rel="contents">
+            <a class="btn" href="/2017/08/18/JS-DevNote-Animation-动画效果/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -580,7 +573,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://zhnegrong.github.io/2017/08/17/[object Object]/C-C-Note/">
+    <link itemprop="mainEntityOfPage" href="http://zhnegrong.github.io/2017/08/17/C-C-Note/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="zhengrong lu">
@@ -599,7 +592,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/08/17/[object Object]/C-C-Note/" itemprop="url">C/C++ Note</a></h1>
+                <a class="post-title-link" href="/2017/08/17/C-C-Note/" itemprop="url">C/C++ Note</a></h1>
         
 
         <div class="post-meta">
@@ -672,7 +665,7 @@
           <h3 id="内存管理"><a href="#内存管理" class="headerlink" title="内存管理"></a>内存管理</h3><p>首先，内存分为 <em> BBS段 数据段 代码段 堆 栈 </em><br>其中代码段可以被共享，BBS和数据段都属于静态区，<br>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2017/08/17/[object Object]/C-C-Note/#more" rel="contents">
+            <a class="btn" href="/2017/08/17/C-C-Note/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -718,7 +711,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://zhnegrong.github.io/2017/08/11/[object Object]/Algo-1-Intro/">
+    <link itemprop="mainEntityOfPage" href="http://zhnegrong.github.io/2017/08/11/Algo-1-Intro/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="zhengrong lu">
@@ -737,7 +730,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/08/11/[object Object]/Algo-1-Intro/" itemprop="url">Algo (1) Tree</a></h1>
+                <a class="post-title-link" href="/2017/08/11/Algo-1-Intro/" itemprop="url">Algo (1) Tree</a></h1>
         
 
         <div class="post-meta">
@@ -812,7 +805,7 @@
 <p>关于多叉树<a href="https://segmentfault.com/a/1190000003004435" target="_blank" rel="external">segmentfault-多叉树</a></p>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2017/08/11/[object Object]/Algo-1-Intro/#more" rel="contents">
+            <a class="btn" href="/2017/08/11/Algo-1-Intro/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -858,7 +851,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://zhnegrong.github.io/2017/08/10/[object Object]/JS-DevNote-Target-CurrentTarger-This/">
+    <link itemprop="mainEntityOfPage" href="http://zhnegrong.github.io/2017/08/10/JS-DevNote-Target-CurrentTarger-This/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="zhengrong lu">
@@ -877,7 +870,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/08/10/[object Object]/JS-DevNote-Target-CurrentTarger-This/" itemprop="url">JS - DevNote - Target&CurrentTarger&This</a></h1>
+                <a class="post-title-link" href="/2017/08/10/JS-DevNote-Target-CurrentTarger-This/" itemprop="url">JS - DevNote - Target&CurrentTarger&This</a></h1>
         
 
         <div class="post-meta">
@@ -962,7 +955,7 @@
 <p>首先得搞清楚JS的事件流的原理。</p>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2017/08/10/[object Object]/JS-DevNote-Target-CurrentTarger-This/#more" rel="contents">
+            <a class="btn" href="/2017/08/10/JS-DevNote-Target-CurrentTarger-This/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1008,7 +1001,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://zhnegrong.github.io/2017/08/10/[object Object]/Hexo-Note-2-Advance/">
+    <link itemprop="mainEntityOfPage" href="http://zhnegrong.github.io/2017/08/10/Hexo-Note-2-Advance/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="zhengrong lu">
@@ -1027,7 +1020,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/08/10/[object Object]/Hexo-Note-2-Advance/" itemprop="url">Hexo Note (2) - Advance</a></h1>
+                <a class="post-title-link" href="/2017/08/10/Hexo-Note-2-Advance/" itemprop="url">Hexo Note (2) - Advance</a></h1>
         
 
         <div class="post-meta">
@@ -1153,7 +1146,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://zhnegrong.github.io/2017/08/02/[object Object]/Hexo-Note-1-Markdown/">
+    <link itemprop="mainEntityOfPage" href="http://zhnegrong.github.io/2017/08/02/Hexo-Note-1-Markdown/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="zhengrong lu">
@@ -1172,7 +1165,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/08/02/[object Object]/Hexo-Note-1-Markdown/" itemprop="url">Hexo Note (1) - Markdown</a></h1>
+                <a class="post-title-link" href="/2017/08/02/Hexo-Note-1-Markdown/" itemprop="url">Hexo Note (1) - Markdown</a></h1>
         
 
         <div class="post-meta">
@@ -1260,7 +1253,7 @@
 <h4 id="How-to-count-visitors"><a href="#How-to-count-visitors" class="headerlink" title="How to count visitors"></a>How to count visitors</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"ds-recent-visitors"</span> <span class="attr">data-num-items</span>=<span class="string">"39"</span> <span class="attr">data-avatar-size</span>=<span class="string">"40"</span> <span class="attr">id</span>=<span class="string">"ds-recent-visitors"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2017/08/02/[object Object]/Hexo-Note-1-Markdown/#more" rel="contents">
+            <a class="btn" href="/2017/08/02/Hexo-Note-1-Markdown/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1306,7 +1299,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://zhnegrong.github.io/2017/08/01/[object Object]/第一篇-起源/">
+    <link itemprop="mainEntityOfPage" href="http://zhnegrong.github.io/2017/08/01/第一篇-起源/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="zhengrong lu">
@@ -1325,7 +1318,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/08/01/[object Object]/第一篇-起源/" itemprop="url">第一篇 起源</a></h1>
+                <a class="post-title-link" href="/2017/08/01/第一篇-起源/" itemprop="url">第一篇 起源</a></h1>
         
 
         <div class="post-meta">
@@ -1398,7 +1391,7 @@
           <h4 id="为什么开这个博客呢"><a href="#为什么开这个博客呢" class="headerlink" title="为什么开这个博客呢"></a>为什么开这个博客呢</h4><p>一方面，实习项目告一段落了，自己有闲工夫来折腾，加上这段时间一边摸索一边记录，有种不吐不快的冲动。<br>另一方面，本来很早就就打算开一个博客，也算是了了曾经的心愿。<br>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2017/08/01/[object Object]/第一篇-起源/#more" rel="contents">
+            <a class="btn" href="/2017/08/01/第一篇-起源/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
